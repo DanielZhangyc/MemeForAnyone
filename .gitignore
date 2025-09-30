@@ -1,0 +1,62 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models (if using local ONNX)
+models/
+*.onnx
+*.bin
+
+# Docker volumes
+data/
+postgres-data/
+qdrant-data/
+minio-data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+secrets/
+*.pem
+*.key
+private/
+
+# Build artifacts
+dist/
+build/
+
+# Test coverage
+coverage/
+*.profraw
+*.profdata
