@@ -60,3 +60,9 @@ build/
 coverage/
 *.profraw
 *.profdata
+
+# Claude Code
+.claude/
+.claude_history
+*.claude_session
+claude_cache/
