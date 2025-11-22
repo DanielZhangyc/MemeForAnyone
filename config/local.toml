@@ -1,0 +1,7 @@
+[storage]
+backend = "s3"
+root = "vvq"
+s3_endpoint = "https://cn-nb1.rains3.com"
+s3_region = "auto"
+s3_access_key = "BJcL6lG9svsgpBBO"
+s3_secret_key = "OogJNZFlbTCtFYS0nEY8KiUjnBnfcf"

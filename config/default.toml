@@ -1,0 +1,3 @@
+[ai]
+active_embedding_model = "bge_small"
+active_rerank_model = "bge_reranker"
